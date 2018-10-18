@@ -14,6 +14,23 @@
 		180CF652217713610047C953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CF650217713610047C953 /* LaunchScreen.storyboard */; };
 		180CF65D217713610047C953 /* NgheTuVanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CF65C217713610047C953 /* NgheTuVanTests.swift */; };
 		180CF668217713610047C953 /* NgheTuVanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CF667217713610047C953 /* NgheTuVanUITests.swift */; };
+		184F181B217714F000EA95CE /* DmgApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F181A217714F000EA95CE /* DmgApi.swift */; };
+		184F183521772FB100EA95CE /* libAlamofire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184F183921772FB100EA95CE /* libAlamofire.a */; };
+		184F183621772FB100EA95CE /* libAlamofireImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184F183A21772FB100EA95CE /* libAlamofireImage.a */; };
+		184F183821772FB100EA95CE /* libSwiftyJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184F183C21772FB100EA95CE /* libSwiftyJSON.a */; };
+		184F183F2177316900EA95CE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F183E2177316900EA95CE /* Response.swift */; };
+		184F18412177321B00EA95CE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F18402177321B00EA95CE /* Config.swift */; };
+		184F18452177388700EA95CE /* OauthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F18442177388700EA95CE /* OauthApi.swift */; };
+		184F184821773FC400EA95CE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F184721773FC400EA95CE /* LoginViewModel.swift */; };
+		18FA661E217828CE00CAA0C6 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA661D217828CE00CAA0C6 /* UserApi.swift */; };
+		18FA66202178410800CAA0C6 /* AlamofireHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA661F2178410800CAA0C6 /* AlamofireHandler.swift */; };
+		18FA66222178415900CAA0C6 /* OAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA66212178415900CAA0C6 /* OAuthHandler.swift */; };
+		18FA66242178422A00CAA0C6 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA66232178422A00CAA0C6 /* UserService.swift */; };
+		18FA662921786FD900CAA0C6 /* DgmAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA662821786FD900CAA0C6 /* DgmAlert.swift */; };
+		18FA662B2178710B00CAA0C6 /* DgmWaiting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA662A2178710B00CAA0C6 /* DgmWaiting.swift */; };
+		18FA662D217871EE00CAA0C6 /* DgmLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA662C217871EE00CAA0C6 /* DgmLocalize.swift */; };
+		18FA662F217872C400CAA0C6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA662E217872C400CAA0C6 /* UIColor.swift */; };
+		277FBCE07DFE85D136C88F57 /* libPods-NgheTuVan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 720892DBE8CB42B8B1BA17A9 /* libPods-NgheTuVan.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +64,26 @@
 		180CF663217713610047C953 /* NgheTuVanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NgheTuVanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180CF667217713610047C953 /* NgheTuVanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgheTuVanUITests.swift; sourceTree = "<group>"; };
 		180CF669217713610047C953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F181A217714F000EA95CE /* DmgApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DmgApi.swift; sourceTree = "<group>"; };
+		184F183921772FB100EA95CE /* libAlamofire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F183A21772FB100EA95CE /* libAlamofireImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAlamofireImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F183B21772FB100EA95CE /* libSwiftMessages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSwiftMessages.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F183C21772FB100EA95CE /* libSwiftyJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSwiftyJSON.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F183E2177316900EA95CE /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		184F18402177321B00EA95CE /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		184F18442177388700EA95CE /* OauthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthApi.swift; sourceTree = "<group>"; };
+		184F184721773FC400EA95CE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		18FA661D217828CE00CAA0C6 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		18FA661F2178410800CAA0C6 /* AlamofireHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireHandler.swift; sourceTree = "<group>"; };
+		18FA66212178415900CAA0C6 /* OAuthHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthHandler.swift; sourceTree = "<group>"; };
+		18FA66232178422A00CAA0C6 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		18FA662821786FD900CAA0C6 /* DgmAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DgmAlert.swift; sourceTree = "<group>"; };
+		18FA662A2178710B00CAA0C6 /* DgmWaiting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DgmWaiting.swift; sourceTree = "<group>"; };
+		18FA662C217871EE00CAA0C6 /* DgmLocalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DgmLocalize.swift; sourceTree = "<group>"; };
+		18FA662E217872C400CAA0C6 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		23E30457D6927DE07DD2093F /* Pods-NgheTuVan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgheTuVan.release.xcconfig"; path = "Pods/Target Support Files/Pods-NgheTuVan/Pods-NgheTuVan.release.xcconfig"; sourceTree = "<group>"; };
+		47E9D5044FE1491520210F62 /* Pods-NgheTuVan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgheTuVan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NgheTuVan/Pods-NgheTuVan.debug.xcconfig"; sourceTree = "<group>"; };
+		720892DBE8CB42B8B1BA17A9 /* libPods-NgheTuVan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NgheTuVan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184F183521772FB100EA95CE /* libAlamofire.a in Frameworks */,
+				184F183621772FB100EA95CE /* libAlamofireImage.a in Frameworks */,
+				184F183821772FB100EA95CE /* libSwiftyJSON.a in Frameworks */,
+				277FBCE07DFE85D136C88F57 /* libPods-NgheTuVan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +122,8 @@
 				180CF65B217713610047C953 /* NgheTuVanTests */,
 				180CF666217713610047C953 /* NgheTuVanUITests */,
 				180CF645217713610047C953 /* Products */,
+				B2DFC15D4FD70529F78FB15F /* Pods */,
+				6B4C48F87664DF41D788C17F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +140,13 @@
 		180CF646217713610047C953 /* NgheTuVan */ = {
 			isa = PBXGroup;
 			children = (
+				18FA662721786FA800CAA0C6 /* Models */,
+				18FA662621786F8100CAA0C6 /* Utils */,
+				184F184A2177429100EA95CE /* Storyboard */,
+				184F18492177425800EA95CE /* ViewControlles */,
+				184F184621773FA200EA95CE /* ViewModels */,
+				184F18422177381900EA95CE /* Services */,
 				180CF647217713610047C953 /* AppDelegate.swift */,
-				180CF649217713610047C953 /* ViewController.swift */,
-				180CF64B217713610047C953 /* Main.storyboard */,
 				180CF64E217713610047C953 /* Assets.xcassets */,
 				180CF650217713610047C953 /* LaunchScreen.storyboard */,
 				180CF653217713610047C953 /* Info.plist */,
@@ -125,6 +172,108 @@
 			path = NgheTuVanUITests;
 			sourceTree = "<group>";
 		};
+		184F18422177381900EA95CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18FA662521786E4D00CAA0C6 /* Api */,
+				18FA66232178422A00CAA0C6 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		184F18432177383900EA95CE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				184F18442177388700EA95CE /* OauthApi.swift */,
+				18FA661D217828CE00CAA0C6 /* UserApi.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		184F184621773FA200EA95CE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				184F184721773FC400EA95CE /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		184F18492177425800EA95CE /* ViewControlles */ = {
+			isa = PBXGroup;
+			children = (
+				180CF649217713610047C953 /* ViewController.swift */,
+			);
+			path = ViewControlles;
+			sourceTree = "<group>";
+		};
+		184F184A2177429100EA95CE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				180CF64B217713610047C953 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		18FA662521786E4D00CAA0C6 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				184F181A217714F000EA95CE /* DmgApi.swift */,
+				184F183E2177316900EA95CE /* Response.swift */,
+				184F18402177321B00EA95CE /* Config.swift */,
+				18FA661F2178410800CAA0C6 /* AlamofireHandler.swift */,
+				18FA66212178415900CAA0C6 /* OAuthHandler.swift */,
+				184F18432177383900EA95CE /* Auth */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		18FA662621786F8100CAA0C6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18FA66302178730A00CAA0C6 /* Extensions */,
+				18FA662821786FD900CAA0C6 /* DgmAlert.swift */,
+				18FA662A2178710B00CAA0C6 /* DgmWaiting.swift */,
+				18FA662C217871EE00CAA0C6 /* DgmLocalize.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18FA662721786FA800CAA0C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18FA66302178730A00CAA0C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18FA662E217872C400CAA0C6 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6B4C48F87664DF41D788C17F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184F183921772FB100EA95CE /* libAlamofire.a */,
+				184F183A21772FB100EA95CE /* libAlamofireImage.a */,
+				184F183B21772FB100EA95CE /* libSwiftMessages.a */,
+				184F183C21772FB100EA95CE /* libSwiftyJSON.a */,
+				720892DBE8CB42B8B1BA17A9 /* libPods-NgheTuVan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2DFC15D4FD70529F78FB15F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47E9D5044FE1491520210F62 /* Pods-NgheTuVan.debug.xcconfig */,
+				23E30457D6927DE07DD2093F /* Pods-NgheTuVan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180CF66C217713610047C953 /* Build configuration list for PBXNativeTarget "NgheTuVan" */;
 			buildPhases = (
+				2450067D9F4842A21B7B515A /* [CP] Check Pods Manifest.lock */,
 				180CF640217713610047C953 /* Sources */,
 				180CF641217713610047C953 /* Frameworks */,
 				180CF642217713610047C953 /* Resources */,
@@ -254,13 +404,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2450067D9F4842A21B7B515A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NgheTuVan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		180CF640217713610047C953 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184F183F2177316900EA95CE /* Response.swift in Sources */,
+				18FA662921786FD900CAA0C6 /* DgmAlert.swift in Sources */,
+				18FA661E217828CE00CAA0C6 /* UserApi.swift in Sources */,
+				18FA66202178410800CAA0C6 /* AlamofireHandler.swift in Sources */,
+				18FA662F217872C400CAA0C6 /* UIColor.swift in Sources */,
 				180CF64A217713610047C953 /* ViewController.swift in Sources */,
+				18FA66222178415900CAA0C6 /* OAuthHandler.swift in Sources */,
+				184F18452177388700EA95CE /* OauthApi.swift in Sources */,
+				18FA66242178422A00CAA0C6 /* UserService.swift in Sources */,
+				184F18412177321B00EA95CE /* Config.swift in Sources */,
+				18FA662D217871EE00CAA0C6 /* DgmLocalize.swift in Sources */,
+				18FA662B2178710B00CAA0C6 /* DgmWaiting.swift in Sources */,
+				184F181B217714F000EA95CE /* DmgApi.swift in Sources */,
 				180CF648217713610047C953 /* AppDelegate.swift in Sources */,
+				184F184821773FC400EA95CE /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +608,7 @@
 		};
 		180CF66D217713610047C953 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E9D5044FE1491520210F62 /* Pods-NgheTuVan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +623,7 @@
 		};
 		180CF66E217713610047C953 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E30457D6927DE07DD2093F /* Pods-NgheTuVan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
