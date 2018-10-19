@@ -30,6 +30,10 @@
 		18FA662B2178710B00CAA0C6 /* DgmWaiting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA662A2178710B00CAA0C6 /* DgmWaiting.swift */; };
 		18FA662D217871EE00CAA0C6 /* DgmLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA662C217871EE00CAA0C6 /* DgmLocalize.swift */; };
 		18FA662F217872C400CAA0C6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA662E217872C400CAA0C6 /* UIColor.swift */; };
+		18FA6632217891E200CAA0C6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FA6631217891E200CAA0C6 /* Login.storyboard */; };
+		18FA66342178935100CAA0C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA66332178935100CAA0C6 /* LoginViewController.swift */; };
+		18FA66362178982A00CAA0C6 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA66352178982A00CAA0C6 /* UIView.swift */; };
+		18FA663821789B7500CAA0C6 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA663721789B7500CAA0C6 /* UIImageView.swift */; };
 		277FBCE07DFE85D136C88F57 /* libPods-NgheTuVan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 720892DBE8CB42B8B1BA17A9 /* libPods-NgheTuVan.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +85,10 @@
 		18FA662A2178710B00CAA0C6 /* DgmWaiting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DgmWaiting.swift; sourceTree = "<group>"; };
 		18FA662C217871EE00CAA0C6 /* DgmLocalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DgmLocalize.swift; sourceTree = "<group>"; };
 		18FA662E217872C400CAA0C6 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		18FA6631217891E200CAA0C6 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		18FA66332178935100CAA0C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18FA66352178982A00CAA0C6 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		18FA663721789B7500CAA0C6 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		23E30457D6927DE07DD2093F /* Pods-NgheTuVan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgheTuVan.release.xcconfig"; path = "Pods/Target Support Files/Pods-NgheTuVan/Pods-NgheTuVan.release.xcconfig"; sourceTree = "<group>"; };
 		47E9D5044FE1491520210F62 /* Pods-NgheTuVan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgheTuVan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NgheTuVan/Pods-NgheTuVan.debug.xcconfig"; sourceTree = "<group>"; };
 		720892DBE8CB42B8B1BA17A9 /* libPods-NgheTuVan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NgheTuVan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,7 +156,6 @@
 				184F18422177381900EA95CE /* Services */,
 				180CF647217713610047C953 /* AppDelegate.swift */,
 				180CF64E217713610047C953 /* Assets.xcassets */,
-				180CF650217713610047C953 /* LaunchScreen.storyboard */,
 				180CF653217713610047C953 /* Info.plist */,
 			);
 			path = NgheTuVan;
@@ -202,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				180CF649217713610047C953 /* ViewController.swift */,
+				18FA66332178935100CAA0C6 /* LoginViewController.swift */,
 			);
 			path = ViewControlles;
 			sourceTree = "<group>";
@@ -209,7 +217,9 @@
 		184F184A2177429100EA95CE /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				180CF650217713610047C953 /* LaunchScreen.storyboard */,
 				180CF64B217713610047C953 /* Main.storyboard */,
+				18FA6631217891E200CAA0C6 /* Login.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -249,6 +259,8 @@
 			isa = PBXGroup;
 			children = (
 				18FA662E217872C400CAA0C6 /* UIColor.swift */,
+				18FA66352178982A00CAA0C6 /* UIView.swift */,
+				18FA663721789B7500CAA0C6 /* UIImageView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -382,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FA6632217891E200CAA0C6 /* Login.storyboard in Resources */,
 				180CF652217713610047C953 /* LaunchScreen.storyboard in Resources */,
 				180CF64F217713610047C953 /* Assets.xcassets in Resources */,
 				180CF64D217713610047C953 /* Main.storyboard in Resources */,
@@ -440,8 +453,11 @@
 				184F18452177388700EA95CE /* OauthApi.swift in Sources */,
 				18FA66242178422A00CAA0C6 /* UserService.swift in Sources */,
 				184F18412177321B00EA95CE /* Config.swift in Sources */,
+				18FA663821789B7500CAA0C6 /* UIImageView.swift in Sources */,
 				18FA662D217871EE00CAA0C6 /* DgmLocalize.swift in Sources */,
 				18FA662B2178710B00CAA0C6 /* DgmWaiting.swift in Sources */,
+				18FA66342178935100CAA0C6 /* LoginViewController.swift in Sources */,
+				18FA66362178982A00CAA0C6 /* UIView.swift in Sources */,
 				184F181B217714F000EA95CE /* DmgApi.swift in Sources */,
 				180CF648217713610047C953 /* AppDelegate.swift in Sources */,
 				184F184821773FC400EA95CE /* LoginViewModel.swift in Sources */,

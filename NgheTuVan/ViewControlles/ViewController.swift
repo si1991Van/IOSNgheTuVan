@@ -10,33 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var txtEmail: UITextField!
-    @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var viewDeveloper: UIView!
+    @IBOutlet weak var viewPartner: UIView!
+    @IBOutlet weak var viewCustomers: UIView!
+    @IBOutlet weak var viewConsultants: UIView!
+    @IBOutlet weak var viewInvestors: UIView!
     
+    @IBOutlet weak var viewBorder: UIView!
     internal var vm = LoginViewMode()
-    
-    @IBAction func btnLogin_TouchUpInside(_ sender: Any) {
-        login()
-    }
-    
-    
-    private func login(){
-        view.endEditing(true)
-        vm.email = txtEmail.text
-        vm.password = txtPassword.text
-        vm.login(onSuccess: {_ in 
-            print("thành công")
-        }, onError: {_ in
-            print("that bai")
-        })
-    }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.viewDeveloper.setViewBorder()
+        self.viewPartner.setViewBorder()
+        self.viewCustomers.setViewBorder()
+        self.viewConsultants.setViewBorder()
+        self.viewInvestors.setViewBorder()
     }
 
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
