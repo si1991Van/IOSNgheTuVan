@@ -13,7 +13,7 @@ class OauthApi: DmgApi {
     
     var apiEndpoint: String {
         get{
-            return "oauth/"
+            return "oauth"
         }
     }
     
@@ -25,6 +25,8 @@ class OauthApi: DmgApi {
             "client_id": Config.CLIENT_ID,
             "client_secret": Config.CLIENT_SECRET
             ], completion: completion)
+        
+        
     }
     
 }

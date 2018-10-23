@@ -16,8 +16,33 @@ class ViewController: UIViewController {
     @IBOutlet weak var viewConsultants: UIView!
     @IBOutlet weak var viewInvestors: UIView!
     
+    @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var viewBorder: UIView!
+    
     internal var vm = LoginViewMode()
+    
+    
+    
+    
+    @IBAction func btnLogin(_ sender: Any) {
+        DgmWaiting.sharedInstance().show()
+        vm.email = txtEmail.text
+        vm.password = txtPassword.text
+        vm.login(onSuccess: onLoginSuccessful, onError: onLoginFailed)
+    }
+    
+    private func onLoginSuccessful(){
+        DgmWaiting.sharedInstance().dismiss()
+        let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
+        self.present(viewController, animated: false, completion: nil)
+    }
+    
+    private func onLoginFailed(errorMessage: String?){
+        DgmWaiting.sharedInstance().dismiss()
+        DgmAlert.error(title: errorMessage)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +53,8 @@ class ViewController: UIViewController {
         self.viewInvestors.setViewBorder()
     }
 
+    
+    
     
     
     override func didReceiveMemoryWarning() {

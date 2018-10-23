@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,35 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UUU-Q7-sbf" userLabel="View1">
-                                <rect key="frame" x="0.0" y="20" width="94" height="200"/>
-                                <color key="backgroundColor" red="0.75267664310000004" green="0.83354110680000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="hYp-y3-wYw"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TxR-5w-QaB">
-                                <rect key="frame" x="94" y="20" width="94" height="200"/>
-                                <color key="backgroundColor" red="1" green="0.22823242899916218" blue="0.3852702550899153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ac6-4y-REs">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.25283834099167113" green="0.26703753127137397" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="UUU-Q7-sbf" firstAttribute="leading" secondItem="K1T-RW-W5z" secondAttribute="leading" id="3Z7-5i-Wfx"/>
-                            <constraint firstItem="TxR-5w-QaB" firstAttribute="top" secondItem="UUU-Q7-sbf" secondAttribute="top" id="7Qp-Tp-bsx"/>
-                            <constraint firstItem="TxR-5w-QaB" firstAttribute="width" secondItem="oVC-mr-gkO" secondAttribute="width" multiplier="1:4" id="7em-3w-iOg"/>
-                            <constraint firstItem="TxR-5w-QaB" firstAttribute="height" secondItem="UUU-Q7-sbf" secondAttribute="height" id="DfR-c2-t9P"/>
-                            <constraint firstItem="TxR-5w-QaB" firstAttribute="leading" secondItem="UUU-Q7-sbf" secondAttribute="trailing" id="bZu-Zt-lMh"/>
-                            <constraint firstItem="TxR-5w-QaB" firstAttribute="bottom" secondItem="UUU-Q7-sbf" secondAttribute="bottom" id="oKM-kc-oCO"/>
-                            <constraint firstItem="UUU-Q7-sbf" firstAttribute="width" secondItem="oVC-mr-gkO" secondAttribute="width" multiplier="1:4" id="q9b-hs-kia"/>
-                            <constraint firstItem="UUU-Q7-sbf" firstAttribute="top" secondItem="K1T-RW-W5z" secondAttribute="top" id="rTN-l9-34Y"/>
+                            <constraint firstItem="K1T-RW-W5z" firstAttribute="trailing" secondItem="ac6-4y-REs" secondAttribute="trailing" id="3ES-P0-iAx"/>
+                            <constraint firstItem="ac6-4y-REs" firstAttribute="leading" secondItem="K1T-RW-W5z" secondAttribute="leading" id="lCg-jl-dx5"/>
+                            <constraint firstItem="ac6-4y-REs" firstAttribute="top" secondItem="K1T-RW-W5z" secondAttribute="top" id="maJ-gz-ln8"/>
+                            <constraint firstItem="K1T-RW-W5z" firstAttribute="bottom" secondItem="ac6-4y-REs" secondAttribute="bottom" id="tPg-fU-CbJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="K1T-RW-W5z"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lny-du-tkU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-106.40000000000001" y="-1500.0000000000002"/>
+            <point key="canvasLocation" x="-188" y="-1689"/>
         </scene>
     </scenes>
 </document>

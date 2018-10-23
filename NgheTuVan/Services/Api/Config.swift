@@ -16,7 +16,7 @@ class Config {
     static let API_URL_HPACADEMY = "http://hpacademy.com.vn/api"
     
     static let  CLIENT_ID = "2"
-    static let CLIENT_SECRET = "tbSp7MgFTTYGPBxYILmTAofarMBeZuO9jo2EuLL3"
+    static let CLIENT_SECRET = "3GfSREURwlYxIAg5yPDacPG0hvE0AtamUlc82na6"
     static let CRM = 1
     static let HPACADEMY = 2
 }

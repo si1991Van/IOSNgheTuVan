@@ -14,6 +14,7 @@
 		180CF652217713610047C953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CF650217713610047C953 /* LaunchScreen.storyboard */; };
 		180CF65D217713610047C953 /* NgheTuVanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CF65C217713610047C953 /* NgheTuVanTests.swift */; };
 		180CF668217713610047C953 /* NgheTuVanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CF667217713610047C953 /* NgheTuVanUITests.swift */; };
+		18115F94217F15CF00B2D10E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18115F93217F15CF00B2D10E /* MenuViewController.swift */; };
 		184F181B217714F000EA95CE /* DmgApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F181A217714F000EA95CE /* DmgApi.swift */; };
 		184F183521772FB100EA95CE /* libAlamofire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184F183921772FB100EA95CE /* libAlamofire.a */; };
 		184F183621772FB100EA95CE /* libAlamofireImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184F183A21772FB100EA95CE /* libAlamofireImage.a */; };
@@ -22,6 +23,8 @@
 		184F18412177321B00EA95CE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F18402177321B00EA95CE /* Config.swift */; };
 		184F18452177388700EA95CE /* OauthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F18442177388700EA95CE /* OauthApi.swift */; };
 		184F184821773FC400EA95CE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F184721773FC400EA95CE /* LoginViewModel.swift */; };
+		186AE022217D709D00BA0899 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186AE021217D709D00BA0899 /* UIStoryboard.swift */; };
+		186AE024217D7AD900BA0899 /* UserTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186AE023217D7AD900BA0899 /* UserTab.storyboard */; };
 		18FA661E217828CE00CAA0C6 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA661D217828CE00CAA0C6 /* UserApi.swift */; };
 		18FA66202178410800CAA0C6 /* AlamofireHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA661F2178410800CAA0C6 /* AlamofireHandler.swift */; };
 		18FA66222178415900CAA0C6 /* OAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA66212178415900CAA0C6 /* OAuthHandler.swift */; };
@@ -30,8 +33,6 @@
 		18FA662B2178710B00CAA0C6 /* DgmWaiting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA662A2178710B00CAA0C6 /* DgmWaiting.swift */; };
 		18FA662D217871EE00CAA0C6 /* DgmLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA662C217871EE00CAA0C6 /* DgmLocalize.swift */; };
 		18FA662F217872C400CAA0C6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA662E217872C400CAA0C6 /* UIColor.swift */; };
-		18FA6632217891E200CAA0C6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FA6631217891E200CAA0C6 /* Login.storyboard */; };
-		18FA66342178935100CAA0C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA66332178935100CAA0C6 /* LoginViewController.swift */; };
 		18FA66362178982A00CAA0C6 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA66352178982A00CAA0C6 /* UIView.swift */; };
 		18FA663821789B7500CAA0C6 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA663721789B7500CAA0C6 /* UIImageView.swift */; };
 		277FBCE07DFE85D136C88F57 /* libPods-NgheTuVan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 720892DBE8CB42B8B1BA17A9 /* libPods-NgheTuVan.a */; };
@@ -68,6 +69,7 @@
 		180CF663217713610047C953 /* NgheTuVanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NgheTuVanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180CF667217713610047C953 /* NgheTuVanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgheTuVanUITests.swift; sourceTree = "<group>"; };
 		180CF669217713610047C953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18115F93217F15CF00B2D10E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = "../../../../../../../Users/apple/.Trash/AKSwiftSlideMenu-master/AKSwiftSlideMenu/MenuViewController.swift"; sourceTree = "<group>"; };
 		184F181A217714F000EA95CE /* DmgApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DmgApi.swift; sourceTree = "<group>"; };
 		184F183921772FB100EA95CE /* libAlamofire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		184F183A21772FB100EA95CE /* libAlamofireImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAlamofireImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,8 @@
 		184F18402177321B00EA95CE /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		184F18442177388700EA95CE /* OauthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthApi.swift; sourceTree = "<group>"; };
 		184F184721773FC400EA95CE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		186AE021217D709D00BA0899 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		186AE023217D7AD900BA0899 /* UserTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserTab.storyboard; sourceTree = SOURCE_ROOT; };
 		18FA661D217828CE00CAA0C6 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
 		18FA661F2178410800CAA0C6 /* AlamofireHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireHandler.swift; sourceTree = "<group>"; };
 		18FA66212178415900CAA0C6 /* OAuthHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthHandler.swift; sourceTree = "<group>"; };
@@ -85,8 +89,6 @@
 		18FA662A2178710B00CAA0C6 /* DgmWaiting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DgmWaiting.swift; sourceTree = "<group>"; };
 		18FA662C217871EE00CAA0C6 /* DgmLocalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DgmLocalize.swift; sourceTree = "<group>"; };
 		18FA662E217872C400CAA0C6 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		18FA6631217891E200CAA0C6 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		18FA66332178935100CAA0C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		18FA66352178982A00CAA0C6 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		18FA663721789B7500CAA0C6 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		23E30457D6927DE07DD2093F /* Pods-NgheTuVan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgheTuVan.release.xcconfig"; path = "Pods/Target Support Files/Pods-NgheTuVan/Pods-NgheTuVan.release.xcconfig"; sourceTree = "<group>"; };
@@ -208,8 +210,8 @@
 		184F18492177425800EA95CE /* ViewControlles */ = {
 			isa = PBXGroup;
 			children = (
+				18115F93217F15CF00B2D10E /* MenuViewController.swift */,
 				180CF649217713610047C953 /* ViewController.swift */,
-				18FA66332178935100CAA0C6 /* LoginViewController.swift */,
 			);
 			path = ViewControlles;
 			sourceTree = "<group>";
@@ -217,9 +219,9 @@
 		184F184A2177429100EA95CE /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				186AE023217D7AD900BA0899 /* UserTab.storyboard */,
 				180CF650217713610047C953 /* LaunchScreen.storyboard */,
 				180CF64B217713610047C953 /* Main.storyboard */,
-				18FA6631217891E200CAA0C6 /* Login.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -261,6 +263,7 @@
 				18FA662E217872C400CAA0C6 /* UIColor.swift */,
 				18FA66352178982A00CAA0C6 /* UIView.swift */,
 				18FA663721789B7500CAA0C6 /* UIImageView.swift */,
+				186AE021217D709D00BA0899 /* UIStoryboard.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -394,10 +397,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FA6632217891E200CAA0C6 /* Login.storyboard in Resources */,
 				180CF652217713610047C953 /* LaunchScreen.storyboard in Resources */,
 				180CF64F217713610047C953 /* Assets.xcassets in Resources */,
 				180CF64D217713610047C953 /* Main.storyboard in Resources */,
+				186AE024217D7AD900BA0899 /* UserTab.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186AE022217D709D00BA0899 /* UIStoryboard.swift in Sources */,
 				184F183F2177316900EA95CE /* Response.swift in Sources */,
 				18FA662921786FD900CAA0C6 /* DgmAlert.swift in Sources */,
 				18FA661E217828CE00CAA0C6 /* UserApi.swift in Sources */,
@@ -452,11 +456,11 @@
 				18FA66222178415900CAA0C6 /* OAuthHandler.swift in Sources */,
 				184F18452177388700EA95CE /* OauthApi.swift in Sources */,
 				18FA66242178422A00CAA0C6 /* UserService.swift in Sources */,
+				18115F94217F15CF00B2D10E /* MenuViewController.swift in Sources */,
 				184F18412177321B00EA95CE /* Config.swift in Sources */,
 				18FA663821789B7500CAA0C6 /* UIImageView.swift in Sources */,
 				18FA662D217871EE00CAA0C6 /* DgmLocalize.swift in Sources */,
 				18FA662B2178710B00CAA0C6 /* DgmWaiting.swift in Sources */,
-				18FA66342178935100CAA0C6 /* LoginViewController.swift in Sources */,
 				18FA66362178982A00CAA0C6 /* UIView.swift in Sources */,
 				184F181B217714F000EA95CE /* DmgApi.swift in Sources */,
 				180CF648217713610047C953 /* AppDelegate.swift in Sources */,
