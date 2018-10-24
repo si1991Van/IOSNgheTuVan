@@ -17,4 +17,11 @@ extension UIView{
         self.layer.borderColor = UIColor.black.cgColor
         self.layer.cornerRadius = 5
     }
+    
+    func addUIView(_ view: UIView, _ x: Double, _ y: Double, _ width: Double, _ height: Double){
+        let viewMenu = self
+        viewMenu.frame = CGRect(x: x, y: y, width: width, height: height)
+        view.addSubview(viewMenu)
+    }
+    
 }
