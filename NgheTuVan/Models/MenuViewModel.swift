@@ -14,20 +14,20 @@ class MenuViewModel {
     var secssion = ["hồ Sơ cá nhân", "Tiện ích hệ thống"]
     
     var itemSecssion = [[
-        LeftMenuAction(label: Loc("Thông tin tài khoản"), iconName : #imageLiteral(resourceName: "layer_1")),
-        LeftMenuAction(label: Loc("Lịch sử giao dich"), iconName: #imageLiteral(resourceName: "layer_4")),
-        LeftMenuAction(label: Loc("Quản lý khách hàng ký gửi"), iconName: #imageLiteral(resourceName: "layer_5")),
+        ProfileModel(label: Loc("Thông tin tài khoản"), iconName : #imageLiteral(resourceName: "layer_1")),
+        ProfileModel(label: Loc("Lịch sử giao dich"), iconName: #imageLiteral(resourceName: "layer_4")),
+        ProfileModel(label: Loc("Quản lý khách hàng ký gửi"), iconName: #imageLiteral(resourceName: "layer_5")),
         ], [
-            LeftMenuAction(label: Loc("Kho hàng bất động sản"), iconName : #imageLiteral(resourceName: "layer_1")),
-            LeftMenuAction(label: Loc("Bảng hàng online"), iconName: #imageLiteral(resourceName: "layer_4")),
-            LeftMenuAction(label: Loc("Huấn luyên - Đào tạo"), iconName: #imageLiteral(resourceName: "layer_5")),
-            LeftMenuAction(label: Loc("Đặc quyền tư vấn"), iconName: #imageLiteral(resourceName: "layer_2")),
-            LeftMenuAction(label: Loc("Đăng xuất"), iconName: #imageLiteral(resourceName: "layer_2")),
+            ProfileModel(label: Loc("Kho hàng bất động sản"), iconName : #imageLiteral(resourceName: "layer_1")),
+            ProfileModel(label: Loc("Bảng hàng online"), iconName: #imageLiteral(resourceName: "layer_4")),
+            ProfileModel(label: Loc("Huấn luyên - Đào tạo"), iconName: #imageLiteral(resourceName: "layer_5")),
+            ProfileModel(label: Loc("Đặc quyền tư vấn"), iconName: #imageLiteral(resourceName: "layer_2")),
+            ProfileModel(label: Loc("Đăng xuất"), iconName: #imageLiteral(resourceName: "layer_2")),
             ] ]
     
 }
 
-class LeftMenuAction {
+class ProfileModel {
     required init(label : String, iconName : UIImage) {
         self.label = label
         self.iconName = iconName

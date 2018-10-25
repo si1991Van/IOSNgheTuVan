@@ -22,6 +22,7 @@ class SlideMenuViewController: UIViewController, UITableViewDelegate, UITableVie
         setTableVIew()
         setupHeaderView()
         swipeGesture()
+        navigationController?.navigationBar.barTintColor = UIColor.hex("#f5821f").withAlphaComponent(0)
     }
 
     override func didReceiveMemoryWarning() {
@@ -54,7 +55,7 @@ class SlideMenuViewController: UIViewController, UITableViewDelegate, UITableVie
     
     func setButton(){
         let btnMenu : UIButton = UIButton()
-        btnMenu.addViewButton(#imageLiteral(resourceName: "ic-menu"), positionX: 10, positionY: 10, width: 30, height: 30)
+        btnMenu.addViewButton(#imageLiteral(resourceName: "ic_menu_slide"), positionX: 10, positionY: 10, width: 30, height: 30)
         navigationController?.navigationBar.addSubview(btnMenu)
         btnMenu.addTarget(self, action: #selector(self.showMenu), for: .touchUpInside)
     }
@@ -89,8 +90,6 @@ class SlideMenuViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     @objc func pushProfile(){
-        print("đến trang thông tin cá nhân")
-        closeMenu()
     }
     
     func setTableVIew() {

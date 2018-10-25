@@ -377,10 +377,10 @@
             </objects>
             <point key="canvasLocation" x="-6644" y="-1605"/>
         </scene>
-        <!--UserTab-->
+        <!--MenuSlide-->
         <scene sceneID="iwv-Rv-hhx">
             <objects>
-                <viewControllerPlaceholder storyboardName="UserTab" id="ZGM-bC-Nee" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="MenuSlide" id="ZGM-bC-Nee" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BgM-Ou-DGY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-5995" y="-1817"/>
